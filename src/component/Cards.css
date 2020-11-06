@@ -60,3 +60,17 @@
   color: white;
   text-shadow: 2px 2px 11px rgba(150, 150, 150, 1);
 }
+.formSearch{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 10px;
+  box-shadow: 0px 3px 7px rgba(255, 255, 255, 0.507);
+}
+.forr{
+  width: 400px;
+  
+}

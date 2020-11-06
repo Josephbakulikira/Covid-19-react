@@ -148,7 +148,7 @@ class App extends Component {
                 <div className="navBar">
 
                     <div><a href='http://auctux.com/'><img width="80px" height="auto" src={logoImg} alt='logo'/></a></div>
-                    <div><a class="a-glow" href="https://www.youtube.com/channel/UCjPk9YDheKst1FlAf_KSpyA" target="_blank">Subscribe</a></div>
+                    <div><a className="a-glow" href="https://www.youtube.com/channel/UCjPk9YDheKst1FlAf_KSpyA" target="_blank">Subscribe</a></div>
 
                 </div>
                 
@@ -156,8 +156,9 @@ class App extends Component {
                   
                 </div>
                 <Container className="text-center">
-                    <h1 className='covid'>COVID 19</h1>
-                    <span>lastUpdate: {data.lastUpdate ? new Date(data.lastUpdate).toDateString(): "loading..."}</span>
+                    <h1 className='covid'>COVID-19 </h1>
+                    <hr></hr>
+                    <span className="date">last Update: {data.lastUpdate ? new Date(data.lastUpdate).toDateString(): "loading..."}</span>
                     <div className=''>
                     <Cards data={data}/>
                     <br></br>

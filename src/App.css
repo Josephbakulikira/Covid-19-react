@@ -8,10 +8,7 @@
 }
 
 
-.formSearch{
-  display: flex;
-  justify-content: center;
-}
+
 .combobox{
   width: 100%;
 }
@@ -85,6 +82,9 @@ footer {
 footer div{
   padding-top: 30px;
 }
+.date{
+  color: #ffffff;
+}
 .particles{
   position: absolute;
   top: 0%;
@@ -108,4 +108,10 @@ footer div{
 
 .App { 
   index: 100;
+}
+hr{
+  border-color: white;
+  background-color: #ffffff;
+  width: 50%;
+  box-shadow: 0px 6px 10px rgba(255, 255, 255, 0.507);
 }

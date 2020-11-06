@@ -23,7 +23,7 @@ export default function CountrySelector(props) {
 
     return (
            
-            <Form.Control defaultValue='' as="select" size="md" onChange={onChangeHandler}>
+            <Form.Control className="text-center" style={{textAlign: "center"}} defaultValue='' as="select" size="md" onChange={onChangeHandler}>
                 <option>World</option>
                 {countriesList}
             </Form.Control>

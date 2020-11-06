@@ -33,9 +33,9 @@ export default function SearchForm({CountrySelectHandler, country}) {
                 shouldItemRender={(item, value) => item.label.toLowerCase().indexOf(value.toLowerCase()) > -1}
                 getItemValue={item => item.label}
                 renderItem={(item, highlighted) =>
-                <div
+                <div className="dss"
                   key={item.id}
-                  style={{ backgroundColor: highlighted ? 'rgba(232, 12, 120, 0.8)' : 'black', }}
+                  style={{ height: "20px", backgroundColor: highlighted ? 'rgba(232, 12, 120, 0.8)' : 'black', }}
                 >
                   {item.label}
                 </div>

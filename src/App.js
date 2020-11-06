@@ -168,8 +168,10 @@ class App extends Component {
                       <CountrySelector CountrySelectHandler={this.CountrySelectHandler}/>
 
                     </Form.Group>
-                    
+                    <div>
                     <ChartComponent data={data} country={country}/>
+              
+                    </div>
                     </div>
                 </Container>
                 <br></br>

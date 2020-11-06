@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,300,600,700,800);
+
+.covid{
+  font-family: 'Raleway';
+  font-size: 60px;
+  color: #ffffff;
+  text-shadow: -4px -4px 13px rgb(131, 131, 131);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formSearch{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.combobox{
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+
+.a-glow {
+  background-color: #000000;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.a-glow:hover {
+  background-color: #004A7F;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+
+  text-align: center;
+  text-decoration: underline;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #2f00b2; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #3500b2; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+footer {
+  background-color: #272727;
+  color: rgb(212, 212, 212);
+  text-align: center;
+  min-height: 100px;
+}
+footer div{
+  padding-top: 30px;
+}
+.particles{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+    
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 20px;
+}
+.particles {
+  z-index: -1;
+  display: block;
+  vertical-align: bottom;
+}
+
+.App { 
+  index: 100;
 }

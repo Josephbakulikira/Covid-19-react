@@ -1,0 +1,62 @@
+.cards{
+  margin: 20px;
+  padding: 20px;
+  width: 320px;
+  min-height: 220px;
+  display: grid;
+  grid-template-columns: repeat(auto, 3);
+  grid-template-rows: 20px 50px 1fr 50px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s;
+ 
+}
+.cards:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+.card-1{
+  color: white;
+  text-shadow: 2px 2px 11px rgba(150, 150, 150, 1);
+  font-weight: bold;
+  background: radial-gradient(#1fe4f5, #3fbafe);
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+
+}
+.card-3 {
+  color: white;
+  text-shadow: 2px 2px 11px rgba(150, 150, 150, 1);
+  font-weight: bold;
+  background: radial-gradient(#c72145, #df485c);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+.card-2 {
+  color: white;
+  text-shadow: 2px 2px 11px rgba(150, 150, 150, 1);
+  font-weight: bold;
+  background: radial-gradient(#60efbc, #58d5c9);
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.card-header{
+  background-color: red;
+}
+.cardTitle{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  
+}
+.nkk{
+  flex-wrap: wrap;
+}
+.countup{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 11px rgba(150, 150, 150, 1);
+}
